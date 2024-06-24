@@ -1,1 +1,1 @@
-# CSS-Infinite-Scroll
+# CSS / Infinite Scroll
