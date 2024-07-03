@@ -13,7 +13,7 @@
   max-width: 1536px;
   margin-inline: auto;
   position: relative;
-  height: 100px;
+  height: 200px;
   margin-top: 5rem;
   overflow: hidden;
   mask-image: linear-gradient(
@@ -33,8 +33,9 @@
 
 .item {
   width: 200px;
-  height: 100px;
-  background-color: red;
+  height: 200px;
+  background-color: none;
+  background-size: cover;
   border-radius: 6px;
   position: absolute;
   left: max(calc(200px * 8), 100%);
@@ -46,32 +47,39 @@
 
 .item1 {
   animation-delay: calc(30s / 8 * (8 - 1) * -1);
+  background-image: url('img/twitter.svg');
 }
-
 .item2 {
   animation-delay: calc(30s / 8 * (8 - 2) * -1);
+  background-image: url('img/youtube.svg');
 }
 
 .item3 {
   animation-delay: calc(30s / 8 * (8 - 3) * -1);
+  background-image: url('img/facebook.svg');
 }
 
 .item4 {
   animation-delay: calc(30s / 8 * (8 - 4) * -1);
+  background-image: url('img/apple.svg');
 }
 
 .item5 {
   animation-delay: calc(30s / 8 * (8 - 5) * -1);
+  background-image: url('img/instagram.svg');
 }
 
 .item6 {
   animation-delay: calc(30s / 8 * (8 - 6) * -1);
+  background-image: url('img/spotify.svg');
 }
 
 .item7 {
   animation-delay: calc(30s / 8 * (8 - 7) * -1);
+  background-image: url('img/tiktok.svg');
 }
 
 .item8 {
   animation-delay: calc(30s / 8 * (8 - 8) * -1);
+  background-image: url('img/whatsapp.svg');
 }
